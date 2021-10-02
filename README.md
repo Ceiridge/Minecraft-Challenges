@@ -24,9 +24,9 @@ A Minecraft 1.15 Spigot plugin assisting in hosting challenges.\
 - PvE Win Condition
 
 ## Commands
-- /challenge <Name> <enable/disable/set> [<Setting Name>] [<Setting Value>] (Load a challenge config)
-- /challengepreset <Name> (Execute a challenge command preset)
-- /start [<ExplanationWaitSec>] (Start the challenges)
-- /reset (Reset the challenge server)
-- /givecomp <Player> (Give tracking compass to a player)
-- /spawn, /hub (Teleport to the lobby spawn)
+- `/challenge <Name> <enable/disable/set> [<Setting Name>] [<Setting Value>]` (Load a challenge config)
+- `/challengepreset <Name>` (Execute a challenge command preset)
+- `/start [<ExplanationWaitSec>]` (Start the challenges)
+- `/reset` (Reset the challenge server)
+- `/givecomp <Player>` (Give tracking compass to a player)
+- `/spawn`, `/hub` (Teleport to the lobby spawn)
