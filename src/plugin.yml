@@ -1,0 +1,27 @@
+name: Challenges
+author: Ceiridge
+version: 1.7
+api-version: 1.15
+main: org.ceiridge.mcchallenges.MCChallenges
+commands:
+  challenge:
+    description: Load a challenge config 
+    usage: /challenge <Name> <enable/disable/set> [<Setting Name>] [<Setting Value>]
+  challengepreset:
+    description: Execute a challenge command preset
+    usage: /challengepreset <Name>
+  start:
+    description: Start the challenges
+    usage: /start [<ExplanationWaitSec>]
+  reset:
+    description: Reset the challenge server
+    usage: /reset
+  givecomp:
+    description: Give tracking compass to a player
+    usage: /givecomp <Player>
+  spawn:
+    description: Teleport to the lobby spawn
+    usage: /spawn
+  hub:
+    description: Alias for spawn
+    usage: /hub
